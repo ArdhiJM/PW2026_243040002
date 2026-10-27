@@ -1,0 +1,36 @@
+:root {
+  font-family: Inter, "Segoe UI", Roboto, sans-serif;
+  color: #23322f;
+  background: #f4f2eb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 10% 5%, rgba(196, 220, 203, 0.45), transparent 32rem),
+    radial-gradient(ellipse at 95% 35%, rgba(243, 211, 166, 0.35), transparent 28rem),
+    #f4f2eb;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+::selection {
+  color: #fff;
+  background: #28715f;
+}
